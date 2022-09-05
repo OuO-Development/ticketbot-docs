@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Ticket Bot',
+  tagline: '最好的Ticket Bot',
+  url: 'https://docs.ticketbot.dev/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'OuO-Development', // Usually your GitHub org/user name.
+  projectName: 'ticketbot-docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/OuO-Development/ticketbot-docs/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/OuO-Development/ticketbot-docs/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,21 +57,20 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Ticket Bot',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Logo',
+          src: 'img/logo.png',
         },
         items: [
+          {to: '/docs', label: '開始使用', position: 'left'},
           {
-            type: 'doc',
-            docId: 'intro',
+            href: 'https://ticketbot.dev/',
+            label: '控制面板',
             position: 'left',
-            label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/OuO-Development',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,46 +80,34 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文檔推薦',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '入門介紹',
+                to: '/docs/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '官方社群',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                href: 'https://discord.gg/5HkdGgP6Ek',
+              }
             ],
           },
           {
-            title: 'More',
+            title: '其他',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Suggestion Bot',
+                href: 'https://discord.com/api/oauth2/authorize?client_id=955419318630375445&permissions=139586825281&scope=bot%20applications.commands',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2022-${new Date().getFullYear()} OuO 編程社群. All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
