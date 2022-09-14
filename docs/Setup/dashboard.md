@@ -35,7 +35,7 @@ slug: dashboard
 
 按下後您應該會看到這很長很長的頁面
 
-![](https://i.imgur.com/4pxYB0J.png)
+![](https://i.imgur.com/qdeDdHz.png)
 
 接下來我們將逐一介紹此頁面每個欄位的功能以及說明
 * 主題 - 顧名思義此欄位就是主題顯示的名稱。
