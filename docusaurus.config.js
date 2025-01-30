@@ -60,7 +60,7 @@ const config = {
         items: [
           {to: '/category/1-設置', label: '開始使用', position: 'left'},
           {
-            href: 'https://ticketbot.dev/',
+            href: 'https://ticketbot.dev/servers',
             label: '控制面板',
             position: 'left',
           },

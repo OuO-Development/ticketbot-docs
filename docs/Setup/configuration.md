@@ -15,4 +15,4 @@ Ticket Bot是以斜線指令為主的機器人
 
 ![CMD](https://i.imgur.com/EcjweSS.png)
 
-如果想要設置客服單系統的話我們目前僅提供 **網路控制面板** 設置，如需設置可前往 [控制面板](https://ticketbot.dev/) 。
+如果想要設置客服單系統的話我們目前僅提供 **網路控制面板** 設置，如需設置可前往 [控制面板](https://ticketbot.dev/servers) 。
